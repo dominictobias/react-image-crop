@@ -279,6 +279,14 @@ const onCropChange = (crop, percentCrop) => setCrop(percentCrop)
 
 And your `aspect` prop should be set to the same value: `<ReactCrop aspect={16 / 9} ... />`.
 
+## Usage Trend
+
+[Usage Trend of react-image-crop](https://npm-compare.com/react-image-crop#timeRange=THREE_YEARS)
+  
+<a href="https://npm-compare.com/react-image-crop#timeRange=THREE_YEARS" target="_blank">
+  <img src="https://npm-compare.com/img/npm-trend/THREE_YEARS/react-image-crop.png" width="100%" alt="NPM Usage Trend of react-image-crop" />
+</a>
+
 ## Contributing / Developing
 
 To develop run `pnpm install && pnpm dev` and open the localhost server in your browser. Update code and it will reload. When you're ready, open a pull request.
