@@ -582,11 +582,11 @@ export class ReactCrop extends PureComponent<ReactCropProps, ReactCropState> {
 
     // When min dimensions are set, ensure crop isn't dragged when going
     // beyond the other side #554
-    if ((minWidth && ord === 'nw') || ord === 'w' || ord === 'sw') {
+    if (minWidth && (ord === 'nw' || ord === 'w' || ord === 'sw')) {
       xDiff = Math.min(xDiff, -minWidth)
     }
 
-    if ((minHeight && ord === 'nw') || ord === 'n' || ord === 'ne') {
+    if (minHeight && (ord === 'nw' || ord === 'n' || ord === 'ne')) {
       yDiff = Math.min(yDiff, -minHeight)
     }
 
